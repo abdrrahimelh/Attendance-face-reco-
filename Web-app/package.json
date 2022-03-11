@@ -1,0 +1,27 @@
+{
+  "name": "tp_n",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next-auth/firebase-adapter": "0.0.2-canary.207",
+    "firebase": "^8.7.1",
+    "mongodb": "^4.3.1",
+    "next": "12.0.3",
+    "next-auth": "^3.29.0",
+    "react": "17.0.2",
+    "react-datepicker": "^4.6.0",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "7",
+    "eslint-config-next": "12.0.3",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
